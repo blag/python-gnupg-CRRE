@@ -1,0 +1,94 @@
+*.py[cod]
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# Temp files
+.\#*
+\#*\#
+*~
+*.swp
+*.swo
+*.orig
+
+# tags
+TAGS
+tags
+
+# notes
+*.org
+
+# Ignore log files and directories from tests:
+*keys/*
+*generated-keys*
+*.pubring
+*.secring
+*random_seed*
+*.log
+tests/doctests/*
+pretty_bad_protocol/test/doctests/*
+pretty_bad_protocol/test/logs/*
+pretty_bad_protocol/test/tmp/*
+pretty_bad_protocol/test/files/*
+
+# Ignore distutils record of installed files:
+installed-files.txt
+
+# Ignore PyCharm files:
+.idea/*
+
+# and git-tickets and tickets:
+.tickets/*
+tickets/*
+TICKET-*
+
+# Ignore virtualenv folders, if they are here:
+include/*
+local/*
+
+# Ignore gpg binary symlinks:
+gpg
+
+# Ignore quilt patch directory:
+.pc/*
+
+# setuptools/distribute files:
+PKG-INFO
+MANIFEST
+
+# sphinx default build
+docs/_build
+
+# ignore keys which have been generated example scripts:
+8192-bit-key/*
